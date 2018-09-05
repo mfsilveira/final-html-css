@@ -1,0 +1,146 @@
+$font-family: "Open Sans";
+$button-background-color: rgba(128, 128, 128, 0.1);
+$border-color: #ccc;
+$button-border-color: rgb(12, 12, 71);
+$button-text-color: rgb(12, 12, 71);
+$default-text-color: rgb(46, 46, 109);
+$default-border-style: solid;
+$default-border-width: 1px;
+
+h1 {
+    font-family: $font-family;
+    font-weight: 800;
+    font-size: 26px;
+    color: $default-text-color;
+    text-align: center;
+    margin: 5px 0px 0px 2px;
+}
+
+button {
+    margin: 5px;
+    height: 40px;
+    width: 140px;
+    border: $default-border-width $default-border-style $button-border-color;
+    border-radius: 20px;
+    background-color: $button-background-color;
+    color: $button-text-color;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: $font-family;
+}
+
+.campo-curto {
+    width: calc(50% - 5px);
+}
+
+.campo-comprido {
+    width: calc(100% - 10px);
+}
+
+.p-10 {
+    padding: 10px 0 10px 0;
+}
+
+.p-20 {
+    padding: 20px 0 20px 0;
+}
+
+.p-30 {
+    padding: 30px 0 30px 0;
+}
+
+.input-group {
+    display: flex;
+    margin: 5px 0px;
+    flex-direction: column;
+}
+
+.buttons-bar {
+    display: flex;
+    margin: 5px 0px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-75 {
+    width: 75%;
+}
+
+.col-100 {
+    width: 100%
+}
+
+body {
+
+    form {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+  
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    h4 {
+        font-family: $font-family;
+        border-bottom: $default-border-style $default-border-width $border-color;
+        margin: 5px 0px 0px 2px;
+        color: $default-text-color;
+    }
+     
+    label, input, select {
+        font-family: $font-family;
+    }
+    
+    input, select {
+        border-radius: 5px;
+        border: $default-border-style $default-border-width $border-color;
+    }
+    
+    input {
+        height: 35px;
+    }
+    
+    select {
+        height: 35px;
+    }
+    
+    .margin-sub {
+        margin-left: 10px;
+    }
+            
+    .input-group label {
+        font-size: 14px;
+    }
+    
+    button span {
+        margin-left: 5px;
+    }
+    
+}
+
+@import 'login';
+@import 'index';
+@import 'veiculos';
+@import 'os';
+@import 'clientes';

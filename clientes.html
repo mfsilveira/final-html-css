@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Final - Cliente</title>
+</head>
+
+<body>
+    <h1 class="p-20">Cliente</h1>
+    <div class="content-clientes">
+        <form action="index.html">
+            <div class="input-group col">
+                <label>Nome</label>
+                <input class="campo-comprido" type="text" id="fieldNome" placeholder="Informe o nome" required minlength="3">
+            </div>
+            <div class="input-group col">
+                <label>Sobrenome</label>
+                <input class="campo-comprido" type="text" id="fieldSobrenome" placeholder="Informe o sobrenome" required minlength="2">
+            </div>
+            <div class="input-group col">
+                <label>Nascimento</label>
+                <input class="campo-curto" type="date" id="fieldDataNascimento" placeholder="" required>
+            </div>
+            <div class="input-group col">
+                <label>Sexo</label>
+                <select class="campo-comprido" id="fieldSexo">
+                    <option value="N">Não informado</option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                </select>
+            </div>
+            <div class="input-group col">
+                <label>E-mail</label>
+                <input class="campo-comprido" type="email" id="fieldEmail" pattern="[^ @]*@[^ @]*" placeholder="Informe o e-mail" required>
+            </div>
+            <div class="input-group col">
+                <label>Confirmar e-mail</label>
+                <input class="campo-comprido" type="email" id="fieldConfirmarEmail" pattern="[^ @]*@[^ @]*" placeholder="Confirme o e-mail"
+                    required>
+            </div>
+            <div class="input-group col">
+                <label>Rua</label>
+                <input class="campo-comprido" type="text" id="fieldRua" placeholder="Informe a rua">
+            </div>
+            <div class="input-group col">
+                <label>Nº</label>
+                <input class="campo-curto" type="text" id="fieldNumero" placeholder="Informe o Nº">
+            </div>
+            <div class="input-group col">
+                <label>Bairro</label>
+                <input class="campo-comprido" type="text" id="fieldBairro" placeholder="Informe o bairro">
+            </div>
+            <div class="input-group col"></div>
+            <div class="input-group col">
+                <label for="fieldCidade">Cidade</label>
+                <input class="campo-comprido" type="text" id="fieldCidade" placeholder="Informe a cidade" required>
+            </div>
+            <div class="input-group col">
+                <label>UF</label>
+                <select class="campo-comprido" id="fieldUF">
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </select>
+            </div>
+            <div class="input-group col">
+                <label>CPF</label>
+                <input class="campo-comprido" type="text" id="fieldCPF" placeholder="Informe o CPF" required>
+            </div>
+            <div class="input-group col">
+                <label>RG</label>
+                <input class="campo-comprido" type="text" id="fieldRG" placeholder="Informe o RG">
+            </div>
+            <div class="buttons-bar col-100 p-20">
+                    <button type="submit">
+                        <span>Salvar</span>
+                    </button>
+                    <button type="button">
+                        <span>Excluir</span>
+                    </button>
+                    <a href="index.html">
+                        <button type="button">
+                            <span>Voltar</span>
+                        </button>
+                    </a>
+                </div>
+        </form>
+
+    </div>
+</body>
+
+</html>

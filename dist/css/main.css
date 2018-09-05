@@ -1,0 +1,218 @@
+h1 {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 26px;
+  color: #2e2e6d;
+  text-align: center;
+  margin: 5px 0px 0px 2px; }
+
+button {
+  margin: 5px;
+  height: 40px;
+  width: 140px;
+  border: 1px solid #0c0c47;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.1);
+  color: #0c0c47;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans"; }
+
+.campo-curto {
+  width: calc(50% - 5px); }
+
+.campo-comprido {
+  width: calc(100% - 10px); }
+
+.p-10 {
+  padding: 10px 0 10px 0; }
+
+.p-20 {
+  padding: 20px 0 20px 0; }
+
+.p-30 {
+  padding: 30px 0 30px 0; }
+
+.input-group {
+  display: flex;
+  margin: 5px 0px;
+  flex-direction: column; }
+
+.buttons-bar {
+  display: flex;
+  margin: 5px 0px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.col-50 {
+  width: 50%; }
+
+.col-25 {
+  width: 25%; }
+
+.col-75 {
+  width: 75%; }
+
+.col-100 {
+  width: 100%; }
+
+body form {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+body .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+
+body h4 {
+  font-family: "Open Sans";
+  border-bottom: solid 1px #ccc;
+  margin: 5px 0px 0px 2px;
+  color: #2e2e6d; }
+
+body label, body input, body select {
+  font-family: "Open Sans"; }
+
+body input, body select {
+  border-radius: 5px;
+  border: solid 1px #ccc; }
+
+body input {
+  height: 35px; }
+
+body select {
+  height: 35px; }
+
+body .margin-sub {
+  margin-left: 10px; }
+
+body .input-group label {
+  font-size: 14px; }
+
+body button span {
+  margin-left: 5px; }
+
+.content-login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .content-login .col {
+    width: 100%; }
+  .content-login .left {
+    align-items: flex-start; }
+  .content-login .center {
+    align-items: center; }
+  .content-login button, .content-login a {
+    text-decoration: none; }
+  .content-login .campo {
+    width: 170px; }
+
+.menu {
+  background-color: #efefef;
+  text-align: center; }
+  .menu a {
+    font-family: "Open Sans";
+    font-size: 14pt;
+    padding: 10px;
+    font-weight: normal;
+    text-decoration: none; }
+  .menu a:hover {
+    color: maroon;
+    background-color: #e0e0e0; }
+  .menu a:visited {
+    color: #3b3b3b; }
+
+.content-veiculos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .content-veiculos .col {
+    width: 50%;
+    align-items: flex-start; }
+  .content-veiculos .col-100 {
+    width: 100%;
+    align-items: flex-start; }
+  .content-veiculos button, .content-veiculos a {
+    text-decoration: none; }
+
+.content-os {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .content-os .col-login {
+    width: 100%;
+    align-items: center; }
+  .content-os button, .content-os a {
+    text-decoration: none; }
+
+.campo-bem-comprido {
+  width: calc(100% - 10px); }
+
+.campo-descricao {
+  width: calc(100% - 10px); }
+
+.campo-codigo-item {
+  width: calc(100% - 10px); }
+
+.campo-valor-item {
+  width: calc(100% - 10px);
+  text-align: right; }
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 15px; }
+
+.itens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 15px; }
+
+.rodape {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 15px; }
+
+.content-clientes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .content-clientes .col {
+    width: 50%;
+    align-items: flex-start; }
+  .content-clientes .col-100 {
+    width: 100%;
+    align-items: flex-start; }
+  .content-clientes button, .content-clientes a {
+    text-decoration: none; }

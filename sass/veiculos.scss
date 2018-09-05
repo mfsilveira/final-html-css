@@ -1,0 +1,21 @@
+.content-veiculos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .col {
+        width: 50%;
+        align-items: flex-start;
+    }
+
+    .col-100 {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    button, a {
+        text-decoration: none;
+    }
+}
